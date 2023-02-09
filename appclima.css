@@ -1,0 +1,108 @@
+:root{
+   --fondoPrincipla:#00c0e5;
+   --letra1:'Ubuntu', sans-serif;
+   --letra2:'Outfit', sans-serif;
+   --letra3: 'Unbounded', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--letra2);
+}
+
+.PrincipalSearch{
+    padding: 10px 20px;
+    background-color:var(--fondoPrincipla);
+    /* max-width: 480px; */
+    margin: 0px auto;
+   /*  border-radius: 3px; */
+}
+
+.search{
+    width: 100%;
+    height: 30px;
+    background-color: antiquewhite;
+    border: none;
+    font-size: 1rem;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.card-clima{
+    background-color: var(--fondoPrincipla);
+    padding: 35px;
+    /* text-align: center; */
+    
+    /* border-radius: 5px; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    /* grid con responsi */
+    grid-template-columns: repeat(auto-fit, minmax(00px, 1fr));
+    
+}
+
+.clima-city{
+    font-size: 5vw;
+    /* texto en mayúscula o minúscula */
+    text-transform: uppercase;
+    /* margin: 0.5rem; */
+    color: white;
+}
+.clima-date{
+    font-size: 5vw;
+    color:white ;
+}
+.clima-temperature{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    gap: 25px;
+}
+
+.temperature-img{
+    width: 65px;
+    height: 55px;
+}
+
+.temperature-text{
+    font-size: 5vw;
+    color: white;
+}
+.cont-temp{
+    display: flex;
+    align-items: center;
+}
+
+.weather{
+    font-size: 4vw;
+    margin-bottom: 1rem;
+    color: white;
+    margin-left:35px;
+}
+
+.img-centro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.weatherImg{
+    display: flex;
+}
+
+
+.range{
+    font-size: 5vw;
+    color: white;
+    padding: 45px;
+}
+
+
+
+
+
+
+
